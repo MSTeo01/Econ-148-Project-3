@@ -1,0 +1,36 @@
+\begin{tabular}{@{\extracolsep{5pt}}lcccc}
+\hline
+\hline
+
+\multicolumn{1}{l}{\textit{Dependent variable:}} &\multicolumn{4}{c}{\textit{Homicides}} \\
+
+\cmidrule(lr){1-1}  \cmidrule(lr){2-5}
+
+&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+
+\\
+
+\textbf{Temperature} & 0.014$^{***}$ & 0.016$^{***}$ & 0.022$^{***}$ & 0.016$^{***}$ \\
+& (0.004) & (0.004) & (0.005) & (0.004) \\
+\\
+\hspace{4pt} $\times$ \textbf{Income (1990)} & 0.003$^{}$ & & & \\
+& (0.002) & & & \\
+\\
+\hspace{4pt} $\times$ \textbf{Gini (1990)} & & 0.001$^{}$ & & \\
+& & (0.003) & & \\
+\\
+\hspace{4pt} $\times$ \textbf{Houses with air conditioning (2010)} & & & -0.002$^{*}$ & \\
+& & & (0.001) & \\
+\\
+\hspace{4pt} $\times$ \textbf{Average temperature (1990-2010)} & & & & 0.000$^{}$ \\
+& & & & (0.002) \\
+\\
+\hline
+Municipality F.E. & Yes & Yes & Yes & Yes\\
+Year F.E. & Yes & Yes & Yes & Yes\\
+Month F.E. & Yes & Yes & Yes & Yes\\
+Observations & 486,132 & 482,868 & 121,056 & 493,908 \\
+\hline
+\hline
+\textit{Note: Standard errors clustered at the state level.} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}

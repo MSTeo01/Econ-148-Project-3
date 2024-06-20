@@ -1,0 +1,29 @@
+\begin{tabular}{@{}l*{3}{c}@{}}
+\hline
+\hline
+\multicolumn{1}{l}{\textit{Dependent variable:}} &\multicolumn{3}{c}{\textit{Homicides}} \\
+
+\cmidrule(lr){1-1}  \cmidrule(lr){2-4}
+
+&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+
+\\
+
+\textbf{Temperature} & 0.013$^{***}$ & 0.013$^{***}$ & 0.013$^{***}$ \\
+& (0.003) & (0.003) & (0.003) \\
+\\
+\textbf{Progresa Transfers} & & 0.004$^{}$ & 0.004$^{}$ \\
+& & (0.011) & (0.012) \\
+\\
+\textbf{Progresa Transfers x Temperature}& & & -0.002$^{}$ \\
+& & & (0.002) \\
+\\
+\hline
+Municipality F.E. & Yes & Yes & Yes \\
+Year F.E. & Yes & Yes & Yes \\
+Month F.E. & Yes & Yes & Yes \\
+Observations & 262,992 & 262,992 & 262,992 \\
+\hline
+\hline
+\textit{Note: Standard errors clustered at the state level.} & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}

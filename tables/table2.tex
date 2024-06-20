@@ -1,0 +1,29 @@
+\begin{tabular}{lcccc}
+\hline\hline
+\multicolumn{1}{l}{\textit{Dependent variable:}} &\multicolumn{3}{c}{\textit{Homicides}} \\
+
+\cmidrule(lr){1-1}  \cmidrule(lr){2-4} 
+
+&\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}\\
+
+\\
+
+\textbf{Temperature}  &  0.0729*** & 0.0218 & 0.033  \\
+& (0.000) & (0.317) & (0.114) \\								
+&  [0.017] & [0.022] & [0.021]\\
+\\
+  
+\textbf{Precipitation} & -0.2087* & -0.2151* & -0.0078 \\
+& (0.089) & (0.082) & (0.799)\\	
+& [0.123] & [0.124] & [0.031]\\
+\\
+
+Municipality F.E. & Yes & Yes & Yes \\
+Year F.E. & Yes & Yes & Yes \\ 
+Month F.E. & Yes & No & Yes \\
+Month-state F.E. & No & No & Yes \\
+State trends & No & Yes & No \\
+\\
+Observations & 117,458 & 117,458 & 117,458 \\
+\hline\hline
+\end{tabular}
