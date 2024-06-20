@@ -8,14 +8,12 @@ The data used in the project can be found on the Harvard Dataverse [here](https:
 
 The Python code is written and run through a Python 3.11.8 distribution and requires the following packages (version number I have used in parenthesis)
 
-- ```pandas (2.1.4)```
+- ```pandas (2.2.2)```
 - ```numpy (1.26.4)```
-- ```scipy (1.11.4)```
+- ```scipy (1.13.0)```
 - ```statsmodels (0.14.0)```
-- ```matplotlib (3.8.3)```
-- ```stargazer (0.0.7)```
-
-Be aware that if running a pandas version older than 2.1.0, the `.map` method might not work as intended and will need to be replaced with the now deprecated `.applymap`. This is the only known issue when running the code on older versions.
+- ```matplotlib (3.8.4)```
+- ```linearmodels (5.4)```
 
 Other than the README.md, the repository contains the following folders and files:
 - [econ148_proj3_main.ipynb](econ148_proj3_main.ipynb): The main notebook containing the code for the project
